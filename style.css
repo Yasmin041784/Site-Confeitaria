@@ -1,0 +1,66 @@
+    /* Resetar Documento */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div, header, section, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+    background-color: #d3a2ff;
+    position: fixed;
+    z-index: 999;
+}
+
+#logo {
+    max-height: 8rem;
+}
+
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+}
+
+#menu li a {
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-shadow: 4px 4px 6px black;
+}
+
+#menu li a:hover {
+    color: #d4f387;
+    background-color: white;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    justify-content: center;
+}
+
+.ft_lg {
+    //justify-content: center;
+}
