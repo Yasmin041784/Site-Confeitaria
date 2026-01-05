@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/ClaraNeve-Bolo.png" type="image/png"> <!-- Colocar imagem no navegador -->
+    <title>Clara em Neve Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img id="logo" src="image/ClaraNeve-Inteiro.png" alt="Site's logo"></a>
+
+        <ul id="menu">
+            <li><a href="#sobre"> Sobre Nos </a></li> <!-- slides e uma breve apresentação -->
+            <li><a href="#produtos"> Produtos </a></li> <!-- tipos de pedidos que são aceitos -->
+            <li><a href="#clientes"> Clientes </a></li> <!-- considerações de clientes antigos -->
+            <li><a href="#formulario"> Personalize </a></li> <!-- formulario para fazer seu proprio pedido -->
+        </ul>
+    </header>
+
+    <section>
+        <section id="sdsh"> <!-- Uma section de slide show -->
+            <img class="slides" src="image/slide1.jpg" alt="Slide 1 - Imagem com uma variedade de bolos e pastelarias">
+            <img class="slides" src="image/slide2.jpg" alt="Slide 2 - Imagem de exposição de pães e bolos ">
+            <img class="slides" src="image/slide3.jpg" alt="Slide 3 - Imagem de mini porções de bolos em uma vitrine">
+            <img class="slides" src="image/slide4.jpg" alt="Slide 4 - Imagem de uma tarte recheada de frutos vermelhos">
+            <img class="slides" src="image/slide5.jpg"
+                alt="Slide 5 - Imagem de alguns ingredientes e utencilios de confeitaria, pretes a cozinhar">
+            <img class="slides" src="image/slide6.jpg" alt="Slide 6 - Imagem de uma torta de framboesa bem decorado">
+        </section>
+
+        <section id="sobre"> <!-- Uma section de introdução a marca -->
+            <div class="box_sobre">
+                <h2> Quem somos? </h2>
+                <p> A Clara em Neve mais do que uma doceria; é um pedaço do nosso coração em forma de doce. Nossa
+                    história começou na cozinha de casa, onde cada bolo era um motivo de reunião e cada receita, um
+                    segredo de família guardado com carinho.
+                    <br><br> Aqui, acreditamos que os melhores momentos da vida são celebrados com sabor. Por isso,
+                    selecionamos os ingredientes mais finos, desde o chocolate nobre até as frutas da estação, para
+                    transformá-los em experiências memoráveis. Nossas criações são feitas artesanalmente, no ritmo lento
+                    do afeto e no rigor da perfeição.
+                    <br><br> Do clássico bolo de aniversário ao doce inovador que surpreende, cada mordida conta uma
+                    história. A nossa é feita de paixão, tradição e um toque de magria.
+                    <br><br> Venha provar os nossos momentos doces!
+                </p>
+            </div>
+        </section>
+    </section>
+
+    <section id="produtos"> <!-- Uma section com nossos produtos -->
+        <h2> Nossos Produtos </h2>
+        <div id="cards_produtos">
+            <div class="card_produto">
+                <div class="card_image">
+                    <span class="destaque"> Mais Vendido</span>
+                    <img src="image/brigadeiro.png" alt="Bolo de brigadeiro delicioso com granulado">
+                </div>
+                <div class="card_text">
+                    <h4> Bolo de Brigadeiro </h4>
+                    <p>Delicioso bolo de chocolate com cobertura de brigadeiro cremoso e granulado. Perfeito para festas
+                        e momentos especiais.</p>
+                    <p class="preco">16,90€</p>
+                </div>
+            </div>
+
+            <div class="card_produto">
+                <div class="card_image">
+                    <img src="image/limao.png" alt="Bolo de limão com merengue">
+                </div>
+                <div class="card_text">
+                    <h4> Bolo de Limão </h4>
+                    <p>Bolo de limão refrescante com merengue dourado. Sabor cítrico e doce na medida certa.</p>
+                    <p class="preco">15,80€</p>
+                </div>
+            </div>
+
+            <div class="card_produto">
+                <div class="card_image">
+                    <img src="image/cenoura.png" alt="Bolo de cenoura com cobertura de chocolate">
+                </div>
+                <div class="card_text">
+                    <h4> Bolo de Cenoura </h4>
+                    <p>Bolo de cenoura macio com cobertura de chocolate meio amargo. Uma combinação clássica
+                        irresistível.</p>
+                    <p class="preco">14,50€</p>
+                </div>
+            </div>
+
+            <div class="card_produto">
+                <div class="card_image">
+                    <span class="destaque">Novidade</span>
+                    <img src="image/morango.png" alt="Bolo de limão com merengue">
+                </div>
+                <div class="card_text">
+                    <h4> Bolo de Morango </h4>
+                    <p>Bolo de morango com camadas de creme. Cobertura de chantilly e decoração com morangos</p>
+                    <p class="preco">18,50€</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cliente">
+        <h2>Satisfação dos clientes</h2>
+        <div class="box_clientes">
+            <div>
+                <div class="imagem">
+                    <img src="image/cliente.jpg" alt="Foto de atendimento com clientes">
+                </div>
+                <div class="testimonial-container">
+                    <div class="section-title">
+                        <h1>Testemunho</h1>
+                        <h3>O que os nossos clientes dizem</h3>
+                    </div>
+                    <div class="testimonial-slider">
+                        <div class="testimonial-slides">
+                            <!-- Slide 1 -->
+                            <div class="testimonial-slide active">
+                                <p class="testimonial-text">
+                                    Para a festa de 1 ano da nossa filha, queríamos algo especial. O boco temático que criaram superou todas as expectativas: uma verdadeira obra de arte que era ainda mais gostosa por dentro. Foi o ponto alto da celebração e emocionou a todos.
+                                </p>
+                                <div class="client-info">
+                                    <h4 class="client-name">Marina Lopes</h4>
+                                    <p class="client-profession">Arquiteta</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2 -->
+                            <div class="testimonial-slide">
+                                <p class="testimonial-text">
+                                    Como preciso de opções refinadas para receber clientes em casa, encontrei na Doce Lar minha fornecedora oficial. A apresentação impecável e o sabor sofisticado dos petit fours impressionam sempre e elevam qualquer reunião.
+                                </p>
+                                <div class="client-info">
+                                    <h4 class="client-name">Maria Silva</h4>
+                                    <p class="client-profession">Designer</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3 -->
+                            <div class="testimonial-slide">
+                                <p class="testimonial-text">
+                                    Precisei de um presente corporativo com urgência e a equipe não só entendeu a necessidade, como sugeriu uma combinação de sabores que foi um enorme sucesso. Profissionalismo, criatividade e um produto delicioso.
+                                </p>
+                                <div class="client-info">
+                                    <h4 class="client-name">João Santos</h4>
+                                    <p class="client-profession">Consultor Financeiro</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 4 -->
+                            <div class="testimonial-slide">
+                                <p class="testimonial-text">
+                                    O bolo do nosso casamento precisava ser inesquecível, e vocês entregaram isso e muito mais. Do primeiro esboço à última fatia, foi uma experiência perfeita. O sabor do red velvet com cream cheese é lembrado até hoje pelos nossos convidados.
+                                </p>
+                                <div class="client-info">
+                                    <h4 class="client-name">Ana e Pedro Costa</h4>
+                                    <p class="client-profession">Noivos</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 5 -->
+                            <div class="testimonial-slide">
+                                <p class="testimonial-text">
+                                    Sou muito criterioso com doces. Aqui, encontro a combinação rara de técnica apurada e ingredientes nobres. O croissant de amêndoas é simplesmente o melhor da cidade. Parabéns pela consistência na excelência.
+                                </p>
+                                <div class="client-info">
+                                    <h4 class="client-name">Camila Santos</h4>
+                                    <p class="client-profession">Gerente de Marketing</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 6 -->
+                            <div class="testimonial-slide">
+                                <p class="testimonial-text">
+                                    Minha pausa para o café da tarde virou um ritual de prazer graças aos cupcakes de vocês. A variedade de sabores e a massa sempre fofinha são um colírio para os olhos e o paladar na correria do dia a dia.
+                                </p>
+                                <div class="client-info">
+                                    <h4 class="client-name">Juliana Pereira</h4>
+                                    <p class="client-profession">Jornalista</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider-controls">
+                            <button class="slider-btn prev-btn">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+
+                            <div class="slider-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                                <span class="dot" data-slide="3"></span>
+                                <span class="dot" data-slide="4"></span>
+                                <span class="dot" data-slide="5"></span>
+                                <span class="dot" data-slide=""></span>
+                            </div>
+
+                            <button class="slider-btn next-btn">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formulario">
+        <h2>Formulario de pedidos</h2>
+        <div class="box_form">
+            <div class="imge_form">
+                <img src="image/boloform.jpeg" alt="Bolo random">
+            </div>
+            <div class="form">
+                <form id="meuFormulario" onsubmit="return enviarFormulario(event)">
+                    <div class="form-row">
+                        <p class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" required>
+                        </p>
+                        <p class="form-group">
+                            <label for="sobrenome">Sobrenome:</label>
+                            <input type="text" id="sobrenome" required>
+                        </p>
+                    </div>
+
+                    <div class="form-row">
+                        <p class="form-group">
+                            <label for="telemovel">Telemovel:</label>
+                            <input type="tel" id="telemovel" required>
+                        </p>
+                        <p class="form-group">
+                            <label for="nif">NIF:</label>
+                            <input type="text" id="nif">
+                        </p>
+                    </div>
+
+                    <p>
+                        <label for="morada">Morada:</label>
+                        <input type="text" id="morada" required>
+                    </p>
+
+                    <div class="pedido-section">
+                        <label class="pedido-label">Qual bolo você quer adicionar ao seu pedido:</label>
+                        <div class="radio-group">
+                            <div class="radio-row">
+                                <div class="radio-option">
+                                    <input type="checkbox" id="brigadeiro" name="bolo" value="Bolo de brigadeiro">
+                                    <label for="brigadeiro">Bolo de brigadeiro</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="checkbox" id="limao" name="bolo" value="Bolo de Limão">
+                                    <label for="limao">Bolo de Limão</label>
+                                </div>
+                            </div>
+                            <div class="radio-row">
+                                <div class="radio-option">
+                                    <input type="checkbox" id="cenoura" name="bolo" value="Bolo de Cenoura">
+                                    <label for="cenoura">Bolo de Cenoura</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="checkbox" id="morango" name="bolo" value="Bolo de Morango">
+                                    <label for="morango">Bolo de Morango</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        <label for="observacao">Observação:</label>
+                        <input type="text" id="observacao" class="obs">
+                    </p>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Contatos da marca -->
+        <div id="infor_footer">
+            <div class="title_ft">
+                <h2><br> Sobre Nós <br></h2>
+            </div>
+            <div class="txt_ft">
+                <div class="ed">
+                    <p> Loja Areosa <br> Seg a Sab das 10h às 13:30 e 14:30 às 19h </p> <br>
+                    <p> 📍 Rua Antonio Costa Viseu 106, 4435-104, Rio Tinto(Areosa), Portugal. <br> 📞+351 932 080 472 |
+                        +351 224 014 078 <br> 💌 encomendas@claraneve.pt </p> <br>
+                </div>
+                <div class="dt">
+                    <p> Fábrica de Gondomar <br> Seg a Sab das 8:30h às 13:30 e 14:30 às 19:00h </p> <br>
+                    <p> 📍 Rua Agostinho Fernando Oliveira Guedes 107 e 109, 4420-009 Gondomar <br> 📞 +351 965 127 843
+                        | +351 224 109 841 <br> 💌 fabrica@claraneve.pt </p> <br>
+                </div>
+            </div>
+            <div class="fin">
+                <p> Made with love </p> <br>
+            </div>
+        </div>
+
+        <!-- Seção de Logo/Identidade -->
+        <div id="links_footer">
+            <div class="image_footer">
+                <img src="image/ClaraNeve-Bolo.png" alt="Cardlogo" style="width: 40%;">
+            </div>
+            <div class="text_footer">
+                <h4><b>Clara em Neve</b></h4>
+                <p>A magia que transforma ingredientes em felicidade</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
